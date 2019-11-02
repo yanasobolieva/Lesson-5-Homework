@@ -1,5 +1,5 @@
 # First approach with using while
-def vowels(some_string):
+def vowels(some_string: str):
     i = 0
     vowels_quantity = 0
     while i < len(some_string):
